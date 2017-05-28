@@ -1,0 +1,104 @@
+*{margin: 0;
+padding: 0;}
+
+body{    
+background-image: url(img/mokku.png);
+background-position: center 0px ;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+overflow: hidden;
+
+}
+
+
+
+.pokki{position: absolute;
+top:660px;
+left:600px;}
+.pokki img{width: 560px;
+margin: 0px;}
+
+.pokki a{display: inline-block;}
+
+.pokki a:hover{background-color: transparent; /* IE6対応 */
+}
+
+.pokki a:hover img {
+visibility: hidden;
+}
+
+
+
+
+.poiful{position: absolute;
+top:630px;
+left:90px;}
+.poiful img{width: 440px;
+}
+
+.poiful a{display: inline-block;}
+
+.poiful a:hover{background-color: transparent; /* IE6対応 */
+}
+
+.poiful a:hover img {
+visibility: hidden;
+}
+
+
+
+
+
+.koara{position: absolute;
+top:110px;
+left:-100px;}
+
+.koara img{transform: rotate(60deg);}
+
+.koara a{display:inherit;}
+
+.koara a:hover{background-color: transparent; /* IE6対応 */
+}
+
+.koara a:hover img {
+visibility: hidden;
+}
+
+
+
+
+.ramune{position: absolute;
+top: 720px;
+right:220px;}
+
+.ramune img{transform: rotate(-20deg);}
+
+.ramune a{display: inline-block;}
+
+.ramune a:hover{background-color: transparent; /* IE6対応 */
+}
+
+.ramune a:hover img {
+visibility: hidden;
+}
+
+
+
+.arufo{position: absolute;
+top: 160px;
+right:-100px;}
+
+.arufo img{transform: rotate(-60deg);}
+
+.arufo a{display: inline-block;}
+
+.arufo a:hover{background-color: transparent; /* IE6対応 */
+}
+
+.arufo a:hover img {
+visibility: hidden;
+}
+
+
+
